@@ -10,4 +10,7 @@ def extract_data(path="data/input.csv"):
         for row in reader:
             rows.append(row)
 
+            ## this changes are done to test feature extract step branch.
+            ## this is second change done to test feature extract step branch.
+
     return rows
